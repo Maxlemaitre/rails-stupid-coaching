@@ -1,0 +1,17 @@
+<div class="container text-center">
+  <h1>Coaching#answer</h1>
+  <h2><%= params[:answer] %></h2>
+  <p> - You </p>
+
+  <% if params[:answer].include?("?")%>
+    <h2>Silly question son...</h2>
+  <% elsif %>
+    <% params[:answer].include?("workout") %>
+    <h2>Good answer buddy !</h2>
+  <% else%>
+      <h2>I don't care my boy</h2>
+  <% end %>
+  <p>-Your Coach</p>
+</div>
+
+
